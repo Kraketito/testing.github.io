@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-image: url('https://images.unsplash.com/photo-1626238586896-3e005566e0ae?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTl8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background:center/cover url('http://www.msif.org/wp-content/uploads/2018/08/Double-helix-gene-changes-article-website-900x0-c-default.png');
+}
+
+button{
+    background: none;
+    color:white;
+    border: 2px solid;
+    /* padding: 1em 2em; */
+    padding:50px;
+    font-size: 3 em;
+    transition: all 0.2s ;
+}
+button:hover{
+    border-color: black;
+    color: red;
+    box-shadow: 0 0.5em 0.5em -0.4em  rgb(236, 203, 13);
+    transform: translatey(-0.75em);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
